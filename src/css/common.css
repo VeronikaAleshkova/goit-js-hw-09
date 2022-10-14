@@ -16,3 +16,27 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  gap: 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.value {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  font-size: 40px;
+}
+
+.label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* text-align: center; */
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 0.01;
+}
