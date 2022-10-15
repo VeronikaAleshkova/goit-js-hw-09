@@ -11,6 +11,8 @@ function getRandomHexColor() {
 
 const onStartClick = () => {
   btnStart.disabled = true;
+  body.style.backgroundColor = getRandomHexColor();
+   
   timerId = setInterval(() => {
     let currentColor;
     currentColor = getRandomHexColor();
